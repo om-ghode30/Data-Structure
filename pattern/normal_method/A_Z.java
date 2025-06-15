@@ -2,10 +2,7 @@ public class A_Z {
     public static void main(String[] args) {
         int n=5;
         int row=n;
-        int Star=0;
-        int star1=0;
-        int star2=0;
-        int space=0;
+        int star1;
         int space1=n-1;
         int space2=-1;
         System.out.println("A Pattern\n");
@@ -64,7 +61,6 @@ public class A_Z {
             System.out.println("\n\nC Pattern\n");
             row=n;
             space1=n-1;
-            space2=n-2;
             while(row>0){
             if(row==1||row==n){
                 int t=space1;
@@ -111,7 +107,6 @@ public class A_Z {
         System.out.println("\n\nE Pattern\n");
         row=n;
         star1=n;
-        space1=n-2;
         while(row>0){
             if(row==1||row==n||row==n/2+1){
                 int t=star1;
@@ -131,7 +126,6 @@ public class A_Z {
         System.out.println("\n\nF Pattern\n");
         row=n;
         star1=n;
-        space1=n-2;
         while(row>0){
             if(row==n||row==n/2+1){
                 int t=star1;
@@ -258,7 +252,6 @@ public class A_Z {
             System.out.println("\n\nL Pattern\n");
             row=n;
             star1=n;
-            space1=n-1;
             while(row>0){
             if(row==1){
                 int t=star1;

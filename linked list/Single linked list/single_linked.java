@@ -87,7 +87,7 @@ class Singly_linked_list{
     public void Delete_at_begning(){
         if(this.head==null){
             System.out.println("No Node to delete");
-            return;
+
         }else{
             Node Current=this.head;
             this.head=Current.get_Next_Node();
