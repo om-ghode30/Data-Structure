@@ -1,0 +1,14 @@
+for sync
+git status                            # ✅ See what's changed (optional)
+git add .                             # ✅ Stage all changed files
+git commit -m "Your message here"     # ✅ Save a snapshot with a message
+git push origin main                  # ✅ Upload to GitHub
+
+
+for connecting
+git init
+git add .
+git remote add origin https://github.com/om-ghode30/Data-Structure.git
+git branch -M main
+git push -u origin main
+
